@@ -1,0 +1,5 @@
+# Custom Dictionary Words
+Spiderball
+regius
+Herpetological
+Unlicense
