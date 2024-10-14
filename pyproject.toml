@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "spiderball"
+version = "0.0.00-alpha"
+description = ""
+authors = ["nomicode <23469+nomicode@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.0"
+
+[tool.poetry.scripts]
+spiderball = "spiderball.cli:main"
+
+[tool.poetry.group.dev.dependencies]
+flask = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
