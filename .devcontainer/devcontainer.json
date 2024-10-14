@@ -1,0 +1,9 @@
+{
+    "name": "Spiderball Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {},
+    "extensions": [],
+    "postCreateCommand": "poetry --version"
+}
